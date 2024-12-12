@@ -1,0 +1,46 @@
+.property-section {
+  display: flex;
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+}
+
+.property-details {
+  flex: 1;
+}
+
+.title,
+.price {
+  font-size: var(--font-size-xl);
+  font-weight: bold;
+  margin-bottom: var(--spacing-sm);
+}
+
+.title {
+  margin-top: 0;
+}
+
+.details,
+.dates {
+  display: flex;
+  gap: var(--spacing-md);
+  font-size: var(--font-size-sm);
+}
+
+.dates {
+  color: var(--text-gray);
+}
+
+.price {
+  color: var(--red-color);
+  margin-top: 12px;
+}
+
+.address ul {
+  margin-bottom: var(--spacing-xs);
+}
+
+.address ul a {
+  color: var(--primary-color);
+  font-style: italic;
+  font-size: var(--font-size-md);
+}

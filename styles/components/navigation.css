@@ -1,0 +1,54 @@
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul,
+.page-actions ul,
+.address ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: var(--spacing-lg);
+}
+
+nav ul li a {
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
+nav ul li a:hover {
+  color: var(--primary-color);
+}
+
+.actions {
+  display: flex;
+  justify-content: end;
+  gap: var(--spacing-lg);
+}
+
+.actions a {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  color: black;
+}
+
+.actions a:hover {
+  color: var(--primary-color);
+}
+
+.page-actions {
+  display: flex;
+  font-size: var(--font-size-md);
+  justify-content: space-between;
+  margin-bottom: var(--spacing-xl);
+}
+
+.page-actions a {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  color: var(--primary-color);
+}

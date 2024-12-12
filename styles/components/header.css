@@ -1,0 +1,85 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.header-banner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.header-banner img {
+  padding: var(--container-padding);
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.header-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  font-size: var(--font-size-md);
+  background: linear-gradient(to top, #f2f2f2, #fff);
+  border: var(--border-color) solid 1px;
+  padding: 10px 160px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xxxl);
+}
+
+.header-right {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+}
+
+.lang {
+  display: flex;
+  gap: var(--spacing-sm);
+  text-decoration: underline;
+  color: var(--secondary-color);
+}
+
+.lang p {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.lang p:hover {
+  color: var(--primary-color);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.search-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search_input {
+  width: 200px;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  border: 1px solid #ccc;
+  box-shadow: var(--shadow-inset);
+}

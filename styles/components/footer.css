@@ -1,0 +1,11 @@
+footer {
+  margin-top: var(--spacing-xxl);
+  text-align: center;
+  padding: var(--spacing-md);
+  background: #f2f2f2;
+}
+
+.footer-links a {
+  color: var(--primary-color);
+  text-decoration: none;
+}

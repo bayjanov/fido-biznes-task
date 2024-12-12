@@ -1,0 +1,124 @@
+.sidebar {
+  width: 440px;
+  background: #fff;
+  font-size: var(--font-size-sm);
+}
+
+.agent-actions-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-sm);
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-xs) var(--spacing-xs) var(--spacing-xs) 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: var(--font-size-xs);
+  color: black;
+  text-decoration: underline;
+}
+
+.agent-profile {
+  display: flex;
+  gap: var(--spacing-md);
+  margin-bottom: var(--spacing-xxl);
+}
+
+.agent-photo {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: solid 1px var(--text-gray);
+}
+
+.agent-info {
+  flex: 1;
+}
+
+.agent-name {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-sm);
+  text-decoration: underline;
+}
+
+.agent-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+}
+
+.agent-contacts p {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  margin: 0;
+}
+
+.email-contact {
+  display: flex;
+  gap: var(--spacing-lg);
+  align-items: center;
+  margin-top: var(--spacing-xs);
+}
+
+.email-contact a {
+  color: black;
+  text-decoration: underline;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  font-size: var(--font-size-xs);
+}
+
+.property-info {
+  width: 100%;
+  margin-bottom: var(--spacing-xl);
+}
+
+.apartment-details {
+  margin-bottom: var(--spacing-sm);
+}
+
+.apartment-description {
+  line-height: 1.4;
+  color: var(--text-dark);
+  margin: 16px 0;
+}
+
+.information-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+}
+
+.info-block h3 {
+  font-size: var(--font-size-md);
+  font-weight: bold;
+  margin-bottom: var(--spacing-md);
+}
+
+.info-block table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+
+.info-block td {
+  padding: var(--spacing-xs) 0;
+  color: var(--text-gray);
+}
+
+.info-block td:last-child {
+  text-align: right;
+}

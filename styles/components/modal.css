@@ -1,0 +1,40 @@
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+}
+
+.modal-content {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  margin: 2% auto;
+}
+
+.modal-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.close-modal {
+  position: absolute;
+  right: var(--spacing-xl);
+  top: var(--spacing-xl);
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: var(--spacing-md);
+}
+
+.close-modal:hover {
+  color: #ccc;
+}

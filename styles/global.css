@@ -1,0 +1,11 @@
+@import './utils/variables.css';
+@import './utils/common.css';
+@import './components/header.css';
+@import './components/navigation.css';
+@import './components/gallery.css';
+@import './components/sidebar.css';
+@import './components/modal.css';
+@import './components/layout.css';
+@import './components/footer.css';
+@import './components/requests.css';
+@import './components/similar-properties.css';

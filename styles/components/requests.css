@@ -1,0 +1,91 @@
+.request-section {
+  margin: 24px 0;
+  font-size: 13px;
+}
+
+.request-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 16px;
+}
+
+.request-button {
+  margin-top: 8px;
+  padding: 8px 16px;
+  width: 180px;
+  background: linear-gradient(to bottom, #fff, var(--secondary-color));
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.request-button:hover {
+  background: linear-gradient(to bottom, #f8f8f8, #e8e8e8);
+}
+
+.feedback-links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.feedback-links a {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.feedback-links a:hover {
+  text-decoration: underline;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.reviews span {
+  color: var(--text-gray);
+}
+
+.not-found {
+  margin-top: 16px;
+}
+
+.not-found p {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.search-similar {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.notify-option {
+  margin-top: 8px;
+  /* display: flex; */
+  /* align-items: center; */
+  gap: 8px;
+}
+
+.notify-link {
+  /* display: flex; */
+  /* align-items: center; */
+  gap: 4px;
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+.notify-link:hover,
+.search-similar:hover {
+  text-decoration: underline;
+}
+
+.notify-link img {
+  width: 16px;
+  height: 16px;
+}
