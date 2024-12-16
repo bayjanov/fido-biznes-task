@@ -52,9 +52,32 @@ class PropertyApp {
   }
 
   initializeEventListeners() {
-    window.addEventListener("load", () => this.initialize());
+    window.addEventListener("load", () => {
+      this.initialize();
 
-    // functions available globally
+      const enlargeButton = document.querySelector(".enlarge-button");
+      const mainImage = document.querySelector("#mainImage");
+      const closeModalButton = document.querySelector(".close-modal");
+
+      if (enlargeButton) {
+        enlargeButton.addEventListener("click", () =>
+          this.modalManager.openModal()
+        );
+      }
+
+      if (mainImage) {
+        mainImage.addEventListener("click", () =>
+          this.modalManager.openModal()
+        );
+      }
+
+      if (closeModalButton) {
+        closeModalButton.addEventListener("click", () =>
+          this.modalManager.closeModal()
+        );
+      }
+    });
+
     window.openModal = () => this.modalManager.openModal();
     window.closeModal = () => this.modalManager.closeModal();
     window.changeRoomType = (type) => {
