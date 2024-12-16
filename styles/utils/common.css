@@ -9,6 +9,16 @@
   padding: 24px 160px;
 }
 
+.main-padding-x {
+  padding-left: 160px;
+  padding-right: 160px;
+}
+
+.pad-y-lg {
+  padding-top: var(--spacing-lg);
+  padding-bottom: var(--spacing-lg);
+}
+
 .text-underline {
   text-decoration: underline;
 }
@@ -37,4 +47,28 @@
     height: 13px;
     width: auto;
     margin-right: 4px;
+}
+
+.text-color-primary {
+  color: var(--primary-color);
+}
+
+.nav-list-black ul a {
+  color: black;
+  font-size: var(--font-size-sm);
+  gap: 4px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+
+.blue-arrow-bg {
+  background: none;
+  background-image: url("../../assets/images/button-bg.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
 }

@@ -19,13 +19,6 @@
   position: absolute;
   left: 0px;
   bottom: 0px;
-  background: none;
-  background-image: url("../../assets/images/button-bg.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  border: none;
-  padding: var(--spacing-sm);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -33,6 +26,7 @@
   border-radius: 4px;
   color: white;
   font-size: var(--font-size-sm);
+  padding: var(--spacing-sm);
 }
 
 .enlarge-button span {
@@ -60,22 +54,6 @@
   height: 400px;
   object-fit: cover;
 }
-
-/* .enlarge-button {
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-sm);
-  background: rgba(10, 106, 193, 0.7);
-  color: white;
-  border: none;
-  padding: 6px 12px;
-  border-radius: 4px;
-  font-size: var(--font-size-sm);
-  cursor: pointer;
-} */
 
 .room-type {
   font-size: var(--font-size-md);
@@ -109,6 +87,7 @@
   padding: 28px 40px;
   margin-bottom: var(--spacing-lg);
   border-radius: 20px;
+  overflow: hidden;
 }
 
 .thumbnail-grid {
@@ -153,7 +132,6 @@
 }
 
 .nav-arrow img {
-  /* Remove width/height constraints to keep original SVG size */
   display: block;
 }
 
@@ -205,4 +183,15 @@
 .search-similar {
   color: var(--primary-color);
   text-decoration: none;
+}
+
+.image-sort-btn {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.image-sort-btn:hover {
+  color: var(--primary-color);
 }

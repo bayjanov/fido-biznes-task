@@ -50,13 +50,16 @@
 
 .photo-count {
   position: absolute;
-  top: 8px;
-  left: 8px;
-  background: #0a6ac1;
-  color: white;
-  padding: 4px 8px;
+  left: 0px;
+  bottom: 0px;;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 4px;
   border-radius: 4px;
-  font-size: 12px;
+  color: white;
+  font-size: var(--font-size-sm);
+  padding: var(--spacing-xs) var(--spacing-lg);
 }
 
 .property-info {

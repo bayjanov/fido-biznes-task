@@ -80,8 +80,8 @@
         <ul>
           <li><a href="#">Продаётся</a></li>
           <li>
-            <a href="#"
-              ><img
+            <a href="#">
+              <img
                 src="./assets/icons/back_arrow.png"
                 style="width: 14px; height: 14px"
                 alt="back"
@@ -89,8 +89,8 @@
             >
           </li>
           <li>
-            <a href="#"
-              ><img
+            <a href="#">
+              <img
                 src="./assets/icons/pin.png"
                 style="width: 14px; height: 14px"
                 alt="pin"
@@ -98,8 +98,8 @@
             >
           </li>
         </ul>
-        <a href="#"
-          ><img
+        <a href="#">
+          <img
             src="./assets/icons/printer.png"
             style="width: 14px; height: 14px"
             alt="printer"
@@ -111,38 +111,32 @@
       <div class="property-section">
         <!-- Property Main Info -->
         <section class="property-details">
-          <p class="title">Метро Ойбека, кафе «Лимпопо»</p>
+          <p class="title"></p>
 
           <div class="details">
-            <span class="id">№ 5124</span>
-            <span class="views">Просмотров: 255</span>
+            <span class="id"></span>
+            <span class="views"></span>
           </div>
 
           <div class="dates">
-            <span class="date">Опубликовано: 21/08/2009</span>
-            <span class="expiry">Активно до: 22/10/2009</span>
+            <span class="date"></span>
+            <span class="expiry"></span>
           </div>
 
-          <p class="price">25,000 у.е.</p>
+          <p class="price"></p>
 
           <div class="address">
-            <ul>
-              <li><a href="#">Ташкент</a></li>
-              <li><a href="#">Мирзо-Улугбекский р-н</a></li>
-              <li><a href="#">м. Ойбека</a></li>
-              <li><a href="#">кафе «Лимпопо»</a></li>
-            </ul>
+            <ul></ul>
           </div>
 
           <div class="photo-gallery">
             <div class="main-photo">
               <img
-                src="./assets/images/room-6.jpg"
+                src=""
                 alt="Main view"
                 id="mainImage"
-                onclick="openModal()"
               />
-              <button class="enlarge-button" onclick="openModal()">
+              <button class="enlarge-button blue-arrow-bg">
                 <img
                   src="./assets/icons/search.png"
                   style="width: 14px; height: 14px"
@@ -152,48 +146,26 @@
               </button>
             </div>
 
-            <h3 class="room-type">Гостиная</h3>
+            <h3 class="room-type"></h3>
 
             <div class="view-options">
               <p>Также посмотреть по типу:</p>
               <div class="type-links">
-                <a href="#" onclick="changeRoomType('bathroom')">Санузел</a>
-                <a href="#" onclick="changeRoomType('hallway')">Прихожая</a>
-                <a href="#" onclick="changeRoomType('bedroom')">Спальня</a>
-                <a href="#" onclick="changeRoomType('layout')">Планировка</a>
+                <a href="#" ><button class="image-sort-btn" onclick="changeRoomType('all')">Все фото</button></a>
+                <a href="#" ><button class="image-sort-btn" onclick="changeRoomType('bathroom')">Санузел</button></a>
+                <a href="#" ><button class="image-sort-btn" onclick="changeRoomType('hallway')">Прихожая</button></a>
+                <a href="#" ><button  class="image-sort-btn" onclick="changeRoomType('bedroom')">Спальня</button></a>
+                <a href="#" ><button class="image-sort-btn" onclick="changeRoomType('layout')">Планировка</button></a>
               </div>
             </div>
             <div class="thumbnails-container">
-              <button class="nav-arrow nav-prev" onclick="navigateImages(-1)">
+              <button class="nav-arrow nav-prev">
                 <img src="./assets/images/button-left.svg" alt="" />
               </button>
               <div class="thumbnail-grid">
-                <img
-                  src="./assets/images/room-6.jpg"
-                  alt="View 1"
-                  class="thumbnail selected"
-                  onclick="changeImage(0)"
-                />
-                <img
-                  src="./assets/images/room-7.jpg"
-                  alt="View 2"
-                  class="thumbnail"
-                  onclick="changeImage(1)"
-                />
-                <img
-                  src="./assets/images/room-8.jpg"
-                  alt="View 3"
-                  class="thumbnail"
-                  onclick="changeImage(2)"
-                />
-                <img
-                  src="./assets/images/room-5.jpg"
-                  alt="View 4"
-                  class="thumbnail"
-                  onclick="changeImage(3)"
-                />
+                <!-- Thumbnails populated by JavaScript -->
               </div>
-              <button class="nav-arrow nav-next" onclick="navigateImages(1)">
+              <button class="nav-arrow nav-next">
                 <img src="./assets/images/button-right.svg" alt="" />
               </button>
             </div>
@@ -213,11 +185,11 @@
               <a href="#" class="recommend">Посоветовать другу</a>
               <div class="reviews">
                 <a href="#" class="positive"
-                  >Положительные отзывы <span>(25)</span></a
-                >
+                  >Положительные отзывы <span></span
+                ></a>
                 <a href="#" class="negative"
-                  >Отрицательные отзывы <span>(3)</span></a
-                >
+                  >Отрицательные отзывы <span></span
+                ></a>
               </div>
             </div>
 
@@ -243,14 +215,9 @@
 
           <!-- Modal for enlarged view -->
           <div class="modal" id="imageModal">
-            <button class="close-modal" onclick="closeModal()">×</button>
+            <button class="close-modal">×</button>
             <div class="modal-content">
-              <img
-                src="/api/placeholder/1200/800"
-                alt="Enlarged view"
-                class="modal-image"
-                id="modalImage"
-              />
+              <img alt="Enlarged view" class="modal-image" id="modalImage" />
             </div>
           </div>
         </section>
@@ -274,7 +241,7 @@
                 src="./assets/icons/thumbs_up.png"
                 class="icon"
                 alt="like"
-              />Пожалить
+              />Похвалить
             </a>
             <a class="action-btn">
               <img
@@ -286,15 +253,11 @@
           </div>
 
           <div class="agent-profile">
-            <img
-              src="./assets/images/avatar.png"
-              alt="Игорь Тен"
-              class="agent-photo"
-            />
+            <img src="" alt="" class="agent-photo" />
             <div class="agent-info">
               <div class="agent-name">
                 <img src="./assets/icons/id_doc.png" class="icon" alt="user" />
-                <a><span>Игорь Тен</span></a>
+                <a><span></span></a>
               </div>
               <div class="agent-contacts">
                 <p>
@@ -303,16 +266,14 @@
                     class="icon"
                     alt="phone"
                   />
-                  (+998 97) 555 55 55
+                  <span class="phone1"></span>
                 </p>
                 <p>
                   <img src="./assets/icons/mts.png" class="icon" alt="phone" />
-                  (+998 97) 555 55 55
+                  <span class="phone2"></span>
                 </p>
                 <div class="email-contact">
-                  <span
-                    >e-mail: <a href="mailto:igor@ndv.uz">igor@ndv.uz</a></span
-                  >
+                  <span>e-mail: <a href="" class="agent-email"></a></span>
                   <a href="#" class="contact-link">
                     <img
                       src="./assets/icons/envelope.png"
@@ -326,160 +287,16 @@
             </div>
           </div>
 
-          <p class="apartment-details">
-            2 комн. / 3 этаж (4) / 62 кв.м. / Хрущевка
-          </p>
-          <p class="apartment-description">
-            Квартира 2комн., 43.5/31.2/6.1кв м 1/5эт. Теплая в жилом состоянии,
-            частично мебель, телефон, снп. Кирпичный дом, бель-этаж, кадовый
-            замок. Рядом магазин, детский сад, удобный подъезд, стоянка. Торг
-          </p>
+          <p class="apartment-details"></p>
+          <p class="apartment-description"></p>
 
           <div class="information-blocks">
             <div class="info-block">
               <h3>Основная информация</h3>
-              <table>
-                <tr>
-                  <td>Год постройки</td>
-                  <td>1980</td>
-                </tr>
-                <tr>
-                  <td>Материал постройки</td>
-                  <td>кирпич</td>
-                </tr>
-                <tr>
-                  <td>Тип дома</td>
-                  <td>екатеринка</td>
-                </tr>
-                <tr>
-                  <td>Тип постройки</td>
-                  <td>кирпич</td>
-                </tr>
-                <tr>
-                  <td>Высота потолков</td>
-                  <td>2.75</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-              </table>
+              <div id="main-info-table"></div>
 
               <h3>Финансовая информация</h3>
-              <table>
-                <tr>
-                  <td>Цена:</td>
-                  <td>25,000 у.е.</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-              </table>
-
-              <h3>Основная информация</h3>
-              <table>
-                <tr>
-                  <td>Год постройки:</td>
-                  <td>1980</td>
-                </tr>
-                <tr>
-                  <td>Материал постройки:</td>
-                  <td>Кирпич</td>
-                </tr>
-                <tr>
-                  <td>Высота потолков:</td>
-                  <td>2.75 м</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-                <tr>
-                  <td>Параметры</td>
-                  <td>Значение</td>
-                </tr>
-              </table>
+              <div id="financial-info-table"></div>
             </div>
           </div>
         </aside>
@@ -489,94 +306,15 @@
       <div class="similar-properties">
         <h3>Сходные по характеристикам квартиры</h3>
         <div class="carousel-container">
-          <button class="carousel-nav prev" onclick="moveCarousel(-1)">
-            <img src="./assets/images/button-left.svg" alt="next" />
+          <button class="carousel-nav prev">
+            <img src="./assets/images/button-left.svg" alt="prev" />
           </button>
           <div class="carousel-wrapper">
             <div class="carousel-track">
-              <!-- First Property -->
-              <div class="property-card">
-                <div class="property-image">
-                  <img src="./assets/images/room-6.jpg" alt="Property 1" />
-                  <span class="photo-count">13 фото</span>
-                </div>
-                <div class="property-info">
-                  <a href="#" class="property-title"
-                    >Метро Ойбека, кафе «Лимпопо»</a
-                  >
-                  <p class="property-details">
-                    2 комн. / 3 этаж (4) / 62 кв.м. / Хрущевка
-                  </p>
-                  <p class="property-price">25,000 у.е.</p>
-                </div>
-              </div>
-              <!-- Second Property -->
-              <div class="property-card">
-                <div class="property-image">
-                  <img src="./assets/images/room-3.jpg" alt="Property 2" />
-                  <span class="photo-count">2 фото</span>
-                </div>
-                <div class="property-info">
-                  <a href="#" class="property-title"
-                    >Метро Ойбека, кафе «Лимпопо»</a
-                  >
-                  <p class="property-details">
-                    2 комн. / 3 этаж (4) / 62 кв.м. / Хрущевка
-                  </p>
-                  <p class="property-price">350,000 у.е.</p>
-                </div>
-              </div>
-              <!-- Third Property -->
-              <div class="property-card">
-                <div class="property-image">
-                  <img src="./assets/images/room-4.jpg" alt="Property 3" />
-                  <span class="photo-count">13 фото</span>
-                </div>
-                <div class="property-info">
-                  <a href="#" class="property-title"
-                    >Метро Ойбека, кафе «Лимпопо»</a
-                  >
-                  <p class="property-details">
-                    2 комн. / 3 этаж (4) / 62 кв.м. / Хрущевка
-                  </p>
-                  <p class="property-price">9,800,000 у.е.</p>
-                </div>
-              </div>
-              <!-- Fourth Property -->
-              <div class="property-card">
-                <div class="property-image">
-                  <img src="./assets/images/room-5.jpg" alt="Property 4" />
-                  <span class="photo-count">2 фото</span>
-                </div>
-                <div class="property-info">
-                  <a href="#" class="property-title"
-                    >Метро Ойбека, кафе «Лимпопо»</a
-                  >
-                  <p class="property-details">
-                    2 комн. / 3 этаж (4) / 62 кв.м. / Хрущевка
-                  </p>
-                  <p class="property-price">25,000 у.е.</p>
-                </div>
-              </div>
-              <!-- Fifth Property -->
-              <div class="property-card">
-                <div class="property-image">
-                  <img src="./assets/images/room-6.jpg" alt="Property 5" />
-                  <span class="photo-count">13 фото</span>
-                </div>
-                <div class="property-info">
-                  <a href="#" class="property-title"
-                    >Метро Ойбека, кафе «Лимпопо»</a
-                  >
-                  <p class="property-details">
-                    2 комн. / 3 этаж (4) / 62 кв.м. / Хрущевка
-                  </p>
-                  <p class="property-price">350,000 у.е.</p>
-                </div>
-              </div>
+              <!-- populated by JavaScript -->
             </div>
           </div>
-          <button class="carousel-nav next" onclick="moveCarousel(1)">
+          <button class="carousel-nav next">
             <img src="./assets/images/button-right.svg" alt="next" />
           </button>
         </div>
@@ -585,12 +323,48 @@
 
     <!-- Footer -->
     <footer>
-      <div class="footer-links">
-        <a href="#">Помощь</a> | <a href="#">Форум</a> |
-        <a href="#">Контакты</a>
+      <div class="footer-banner">
+        <img src="./assets/images/footer_banner.png" alt="banner" />
       </div>
-      <p>&copy; 2024 NDV Real Estate</p>
+      <div class="footer-content main-padding-x pad-y-lg">
+        <div>
+          <div class="footer-links">
+            <ul>
+              <li><a href="#">Консультации специалиста</a></li>
+              |
+              <li><a href="#">Форум</a></li>
+              |
+              <li><a href="#">Полезные статьи</a></li>
+              |
+              <li><a href="#">Помощь</a></li>
+              |
+              <li><a href="#">Реклама</a></li>
+              |
+              <li><a href="#">О проекте</a></li>
+              |
+              <li><a href="#">Обратная связь</a></li>
+            </ul>
+          </div>
+          <p class="footnote">
+            &copy; 2009 NDV. При использовании материалов ссылка на сайт
+            обязательна.
+          </p>
+          <div class="licence-sign">
+            <img src="./assets/images/licence_sign.png" alt="licence" />
+            <a href="#"
+              ><img
+                src="./assets/icons/external_link.svg"
+                class="external_link"
+                alt="external_link"
+            /></a>
+          </div>
+        </div>
+        <div>
+          <img src="./assets/images/rt_desing.png" alt="" />
+        </div>
+      </div>
     </footer>
-    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="./app/app.js"></script>
   </body>
 </html>

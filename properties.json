@@ -1,0 +1,590 @@
+{
+    "properties": [
+        {
+            "id": "5124",
+            "title": "Метро Ойбека, кафе «Лимпопо»",
+            "views": 255,
+            "publishDate": "21/08/2009",
+            "expiryDate": "22/10/2009",
+            "price": "25,000",
+            "currency": "у.е.",
+            "location": {
+                "city": "Ташкент",
+                "district": "Мирзо-Улугбекский р-н",
+                "metro": "м. Ойбека",
+                "landmark": "кафе «Лимпопо»"
+            },
+            "images": {
+                "living": [
+                    "./assets/images/room-6.jpg",
+                    "./assets/images/room-7.jpg",
+                    "./assets/images/room-8.jpg",
+                    "./assets/images/room-5.jpg",
+                    "./assets/images/room-3.jpg",
+                    "./assets/images/room-4.jpg"
+                ],
+                "bathroom": [
+                    "./assets/images/room-3.jpg",
+                    "./assets/images/room-4.jpg"
+                ],
+                "bedroom": [
+                    "./assets/images/room-8.jpg",
+                    "./assets/images/room-6.jpg"
+                ],
+                "hallway": [
+                    "./assets/images/room-7.jpg",
+                    "./assets/images/room-4.jpg"
+                ],
+                "layout": [
+                    "./assets/images/room-5.jpg",
+                    "./assets/images/room-3.jpg"
+                ]
+            },
+            "agent": {
+                "name": "Игорь Тен",
+                "photo": "./assets/images/avatar.png",
+                "phones": [
+                    "(+998 97) 555 55 55",
+                    "(+998 97) 555 55 55"
+                ],
+                "email": "igor@ndv.uz",
+                "rating": {
+                    "positive": 25,
+                    "negative": 3
+                }
+            },
+            "details": {
+                "rooms": 2,
+                "floor": 3,
+                "totalFloors": 4,
+                "area": 62,
+                "livingArea": 43.5,
+                "kitchenArea": 6.1,
+                "type": "Хрущевка",
+                "description": "Квартира 2комн., 43.5/31.2/6.1кв м 1/5эт. Теплая в жилом состоянии, частично мебель, телефон, снп. Кирпичный дом, бель-этаж, кадовый замок. Рядом магазин, детский сад, удобный подъезд, стоянка. Торг"
+            },
+            "buildingInfo": {
+                "yearBuilt": 1980,
+                "material": "кирпич",
+                "buildingType": "екатеринка",
+                "constructionType": "кирпич",
+                "ceilingHeight": 2.75,
+                "parking": "есть",
+                "elevator": "нет",
+                "security": "консьерж",
+                "renovation": "требуется косметический ремонт"
+            },
+            "financialInfo": {
+                "price": "25,000",
+                "currency": "у.е.",
+                "pricePerSqm": 403,
+                "mortgageAvailable": true,
+                "mortgageBank": "NBU",
+                "initialPayment": "30%",
+                "monthlyPayment": "450",
+                "utilities": "80",
+                "tax": "1.5%",
+                "commission": "3%"
+            },
+            "amenities": {
+                "furniture": "частично",
+                "appliances": [
+                    "холодильник",
+                    "стиральная машина"
+                ],
+                "internet": true,
+                "phone": true,
+                "cableTV": true,
+                "airConditioner": false,
+                "balcony": true
+            }
+        },
+        {
+            "id": "5125",
+            "title": "Чиланзар, ТашМИ",
+            "views": 178,
+            "publishDate": "20/08/2009",
+            "expiryDate": "21/10/2009",
+            "price": "350,000",
+            "currency": "у.е.",
+            "location": {
+                "city": "Ташкент",
+                "district": "Чиланзарский р-н",
+                "metro": "м. ТашМИ",
+                "landmark": "ТашМИ"
+            },
+            "images": {
+                "living": [
+                    "./assets/images/room-3.jpg",
+                    "./assets/images/room-4.jpg",
+                    "./assets/images/room-5.jpg",
+                    "./assets/images/room-6.jpg"
+                ],
+                "bathroom": [
+                    "./assets/images/room-7.jpg",
+                    "./assets/images/room-8.jpg"
+                ],
+                "bedroom": [
+                    "./assets/images/room-5.jpg",
+                    "./assets/images/room-4.jpg"
+                ],
+                "hallway": [
+                    "./assets/images/room-3.jpg",
+                    "./assets/images/room-6.jpg"
+                ],
+                "layout": [
+                    "./assets/images/room-7.jpg",
+                    "./assets/images/room-8.jpg"
+                ]
+            },
+            "agent": {
+                "name": "Анна Ким",
+                "photo": "./assets/images/avatar.png",
+                "phones": [
+                    "(+998 97) 666 66 66",
+                    "(+998 97) 777 77 77"
+                ],
+                "email": "anna@ndv.uz",
+                "rating": {
+                    "positive": 42,
+                    "negative": 1
+                }
+            },
+            "details": {
+                "rooms": 3,
+                "floor": 5,
+                "totalFloors": 9,
+                "area": 78,
+                "livingArea": 52.3,
+                "kitchenArea": 9.1,
+                "type": "Новостройка",
+                "description": "Просторная квартира с современным ремонтом, встроенной мебелью. Рядом школа, детский сад, супермаркет."
+            },
+            "buildingInfo": {
+                "yearBuilt": 2015,
+                "material": "монолит",
+                "buildingType": "новостройка",
+                "constructionType": "монолит",
+                "ceilingHeight": 3.0,
+                "parking": "подземный",
+                "elevator": "2 лифта",
+                "security": "охрана 24/7",
+                "renovation": "евроремонт"
+            },
+            "financialInfo": {
+                "price": "350,000",
+                "currency": "у.е.",
+                "pricePerSqm": 4487,
+                "mortgageAvailable": true,
+                "mortgageBank": "Asaka Bank",
+                "initialPayment": "25%",
+                "monthlyPayment": "2800",
+                "utilities": "150",
+                "tax": "1.5%",
+                "commission": "2%"
+            },
+            "amenities": {
+                "furniture": "полностью",
+                "appliances": [
+                    "холодильник",
+                    "стиральная машина",
+                    "посудомоечная машина",
+                    "кондиционер"
+                ],
+                "internet": true,
+                "phone": true,
+                "cableTV": true,
+                "airConditioner": true,
+                "balcony": true
+            }
+        },
+        {
+            "id": "5126",
+            "title": "Ц-1, Рынок Малика",
+            "views": 312,
+            "publishDate": "22/08/2009",
+            "expiryDate": "23/10/2009",
+            "price": "42,000",
+            "currency": "у.е.",
+            "location": {
+                "city": "Ташкент",
+                "district": "Учтепинский р-н",
+                "metro": "м. Буюк Ипак Йули",
+                "landmark": "Рынок Малика"
+            },
+            "images": {
+                 "living": [
+                    "./assets/images/room-3.jpg",
+                    "./assets/images/room-4.jpg",
+                    "./assets/images/room-5.jpg",
+                    "./assets/images/room-6.jpg"
+                ],
+                "bathroom": [
+                    "./assets/images/room-7.jpg",
+                    "./assets/images/room-8.jpg"
+                ],
+                "bedroom": [
+                    "./assets/images/room-5.jpg",
+                    "./assets/images/room-4.jpg"
+                ],
+                "hallway": [
+                    "./assets/images/room-3.jpg",
+                    "./assets/images/room-6.jpg"
+                ],
+                "layout": [
+                    "./assets/images/room-7.jpg",
+                    "./assets/images/room-8.jpg"
+                ]
+            },
+            "agent": {
+                "name": "Дмитрий Пак",
+                "photo": "./assets/images/avatar.png",
+                "phones": [
+                    "(+998 97) 888 88 88",
+                    "(+998 97) 999 99 99"
+                ],
+                "email": "dmitriy@ndv.uz",
+                "rating": {
+                    "positive": 31,
+                    "negative": 2
+                }
+            },
+            "details": {
+                "rooms": 2,
+                "floor": 2,
+                "totalFloors": 5,
+                "area": 54,
+                "livingArea": 32.8,
+                "kitchenArea": 7.2,
+                "type": "Брежневка",
+                "description": "Уютная квартира в тихом районе. Свежий ремонт, новая сантехника. В шаговой доступности школа, детский сад, магазины."
+            },
+            "buildingInfo": {
+                "yearBuilt": 1975,
+                "material": "кирпич",
+                "buildingType": "брежневка",
+                "constructionType": "кирпич",
+                "ceilingHeight": 2.5,
+                "parking": "стихийная",
+                "elevator": "есть",
+                "security": "домофон",
+                "renovation": "косметический ремонт"
+            },
+            "financialInfo": {
+                "price": "42,000",
+                "currency": "у.е.",
+                "pricePerSqm": 778,
+                "mortgageAvailable": true,
+                "mortgageBank": "Kapitalbank",
+                "initialPayment": "20%",
+                "monthlyPayment": "520",
+                "utilities": "95",
+                "tax": "1.5%",
+                "commission": "2.5%"
+            },
+            "amenities": {
+                "furniture": "нет",
+                "appliances": [
+                    "холодильник"
+                ],
+                "internet": true,
+                "phone": true,
+                "cableTV": false,
+                "airConditioner": false,
+                "balcony": true
+            }
+        },
+        {
+            "id": "5127",
+            "title": "Юнусабад, ТРЦ «Мега Планет»",
+            "views": 298,
+            "publishDate": "24/08/2009",
+            "expiryDate": "25/10/2009",
+            "price": "85,000",
+            "currency": "у.е.",
+            "location": {
+                "city": "Ташкент",
+                "district": "Юнусабадский р-н",
+                "metro": "м. Юнусабад",
+                "landmark": "ТРЦ «Мега Планет»"
+            },
+            "images": {
+                "living": [
+                    "./assets/images/room-3.jpg",
+                    "./assets/images/room-4.jpg",
+                    "./assets/images/room-5.jpg",
+                    "./assets/images/room-6.jpg"
+                ],
+                "bathroom": [
+                    "./assets/images/room-7.jpg",
+                    "./assets/images/room-8.jpg"
+                ],
+                "bedroom": [
+                    "./assets/images/room-5.jpg",
+                    "./assets/images/room-4.jpg"
+                ],
+                "hallway": [
+                    "./assets/images/room-3.jpg",
+                    "./assets/images/room-6.jpg"
+                ],
+                "layout": [
+                    "./assets/images/room-7.jpg",
+                    "./assets/images/room-8.jpg"
+                ]
+            },
+            "agent": {
+                "name": "Марина Петрова",
+                "photo": "./assets/images/avatar.png",
+                "phones": [
+                    "(+998 97) 444 44 44"
+                ],
+                "email": "marina@ndv.uz",
+                "rating": {
+                    "positive": 30,
+                    "negative": 4
+                }
+            },
+            "details": {
+                "rooms": 4,
+                "floor": 8,
+                "totalFloors": 12,
+                "area": 120,
+                "livingArea": 75.5,
+                "kitchenArea": 15.2,
+                "type": "Элитка",
+                "description": "Просторная квартира с качественным ремонтом, полностью меблирована. Рядом парк, кафе, торговый центр."
+            },
+            "buildingInfo": {
+                "yearBuilt": 2020,
+                "material": "монолит",
+                "buildingType": "новостройка",
+                "constructionType": "монолит",
+                "ceilingHeight": 3.2,
+                "parking": "подземный",
+                "elevator": "2 лифта",
+                "security": "охрана 24/7",
+                "renovation": "свежий ремонт"
+            },
+            "financialInfo": {
+                "price": "85,000",
+                "currency": "у.е.",
+                "pricePerSqm": 708,
+                "mortgageAvailable": true,
+                "mortgageBank": "Ipoteka Bank",
+                "initialPayment": "20%",
+                "monthlyPayment": "900",
+                "utilities": "120",
+                "tax": "1.5%",
+                "commission": "2%"
+            },
+            "amenities": {
+                "furniture": "полностью",
+                "appliances": [
+                    "холодильник",
+                    "стиральная машина",
+                    "посудомоечная машина",
+                    "кондиционер",
+                    "микроволновая печь"
+                ],
+                "internet": true,
+                "phone": true,
+                "cableTV": true,
+                "airConditioner": true,
+                "balcony": true
+            }
+        },
+        {
+            "id": "5128",
+            "title": "Сергели, Рынок Сергели",
+            "views": 156,
+            "publishDate": "23/08/2009",
+            "expiryDate": "24/10/2009",
+            "price": "40,000",
+            "currency": "у.е.",
+            "location": {
+                "city": "Ташкент",
+                "district": "Сергели р-н",
+                "metro": "м. Сергели",
+                "landmark": "Рынок Сергели"
+            },
+            "images": {
+                "living": [
+                    "./assets/images/room-3.jpg",
+                    "./assets/images/room-4.jpg",
+                    "./assets/images/room-5.jpg",
+                    "./assets/images/room-6.jpg"
+                ],
+                "bathroom": [
+                    "./assets/images/room-7.jpg",
+                    "./assets/images/room-8.jpg"
+                ],
+                "bedroom": [
+                    "./assets/images/room-5.jpg",
+                    "./assets/images/room-4.jpg"
+                ],
+                "hallway": [
+                    "./assets/images/room-3.jpg",
+                    "./assets/images/room-6.jpg"
+                ],
+                "layout": [
+                    "./assets/images/room-7.jpg",
+                    "./assets/images/room-8.jpg"
+                ]
+            },
+            "agent": {
+                "name": "Ольга Иванова",
+                "photo": "./assets/images/avatar.png",
+                "phones": [
+                    "(+998 97) 555 33 22"
+                ],
+                "email": "olga@ndv.uz",
+                "rating": {
+                    "positive": 18,
+                    "negative": 5
+                }
+            },
+            "details": {
+                "rooms": 3,
+                "floor": 2,
+                "totalFloors": 4,
+                "area": 68,
+                "livingArea": 40.2,
+                "kitchenArea": 8.5,
+                "type": "Панельный дом",
+                "description": "Тёплая квартира, меблированная, в тихом районе. Удобный доступ к транспорту и инфраструктуре."
+            },
+            "buildingInfo": {
+                "yearBuilt": 1998,
+                "material": "панель",
+                "buildingType": "типовая панелька",
+                "constructionType": "панель",
+                "ceilingHeight": 2.7,
+                "parking": "есть",
+                "elevator": "нет",
+                "security": "домофон",
+                "renovation": "требуется косметический ремонт"
+            },
+            "financialInfo": {
+                "price": "40,000",
+                "currency": "у.е.",
+                "pricePerSqm": 588,
+                "mortgageAvailable": false,
+                "utilities": "90",
+                "tax": "1.5%",
+                "commission": "3%"
+            },
+            "amenities": {
+                "furniture": "частично",
+                "appliances": [
+                    "холодильник",
+                    "телевизор"
+                ],
+                "internet": false,
+                "phone": true,
+                "cableTV": true,
+                "airConditioner": false,
+                "balcony": false
+            }
+        },
+        {
+            "id": "5129",
+            "title": "Южный вокзал, бизнес-центр",
+            "views": 421,
+            "publishDate": "25/08/2009",
+            "expiryDate": "26/10/2009",
+            "price": "1,200,000",
+            "currency": "у.е.",
+            "location": {
+                "city": "Ташкент",
+                "district": "Шайхантахурский р-н",
+                "metro": "м. Южный вокзал",
+                "landmark": "Бизнес-центр"
+            },
+            "images": {
+                "living": [
+                    "./assets/images/room-3.jpg",
+                    "./assets/images/room-4.jpg",
+                    "./assets/images/room-5.jpg",
+                    "./assets/images/room-6.jpg"
+                ],
+                "bathroom": [
+                    "./assets/images/room-7.jpg",
+                    "./assets/images/room-8.jpg"
+                ],
+                "bedroom": [
+                    "./assets/images/room-5.jpg",
+                    "./assets/images/room-4.jpg"
+                ],
+                "hallway": [
+                    "./assets/images/room-3.jpg",
+                    "./assets/images/room-6.jpg"
+                ],
+                "layout": [
+                    "./assets/images/room-7.jpg",
+                    "./assets/images/room-8.jpg"
+                ]
+            },
+            "agent": {
+                "name": "Владимир Ефимов",
+                "photo": "./assets/images/avatar.png",
+                "phones": [
+                    "(+998 97) 111 22 33"
+                ],
+                "email": "vladimir@ndv.uz",
+                "rating": {
+                    "positive": 50,
+                    "negative": 2
+                }
+            },
+            "details": {
+                "rooms": 6,
+                "floor": 10,
+                "totalFloors": 15,
+                "area": 240,
+                "livingArea": 180,
+                "kitchenArea": 20,
+                "type": "Элитный пентхаус",
+                "description": "Роскошный пентхаус с панорамным видом на город. Встроенная техника, дизайнерский ремонт. Идеально для проживания или офиса."
+            },
+            "buildingInfo": {
+                "yearBuilt": 2018,
+                "material": "монолит",
+                "buildingType": "бизнес-класс",
+                "constructionType": "монолит",
+                "ceilingHeight": 3.5,
+                "parking": "подземный",
+                "elevator": "4 лифта",
+                "security": "охрана 24/7",
+                "renovation": "дизайнерский ремонт"
+            },
+            "financialInfo": {
+                "price": "1,200,000",
+                "currency": "у.е.",
+                "pricePerSqm": 5000,
+                "mortgageAvailable": true,
+                "mortgageBank": "Hamkorbank",
+                "initialPayment": "30%",
+                "monthlyPayment": "15,000",
+                "utilities": "300",
+                "tax": "1.5%",
+                "commission": "1.5%"
+            },
+            "amenities": {
+                "furniture": "полностью",
+                "appliances": [
+                    "холодильник",
+                    "стиральная машина",
+                    "посудомоечная машина",
+                    "кондиционер",
+                    "микроволновая печь",
+                    "кофемашина"
+                ],
+                "internet": true,
+                "phone": true,
+                "cableTV": true,
+                "airConditioner": true,
+                "balcony": true
+            }
+        }
+    ]
+}
